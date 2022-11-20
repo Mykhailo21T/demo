@@ -17,7 +17,7 @@ public class DemoApplication {
 	@Bean
 	CommandLineRunner commandLineRunner(StudentRepository rep){
 		return args -> {
-			rep.save(new Student(null,"Erik","Johnson@mail.com",28));
+			rep.save(new Student(null,"Erik","erik2000@mail.com",28));
 		};
 	}
 
