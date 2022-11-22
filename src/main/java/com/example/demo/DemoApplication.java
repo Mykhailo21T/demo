@@ -18,8 +18,6 @@ public class DemoApplication {
 	CommandLineRunner commandLineRunner(StudentRepository rep){
 		return args -> {
 			rep.save(new Student(null,"Erik","erik2000@mail.com",28));
-			rep.save(new Student(null,"Jens","jakobsenjens@mail.com",22));
-			rep.save(new Student(null,"Jonas","jon20021212@mail.com",20));
 		};
 	}
 
